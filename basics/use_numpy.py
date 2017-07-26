@@ -3,8 +3,9 @@
 
 from numpy import *
 
+
 def printMat():
-    array = random.rand(3,3)
+    array = random.rand(3, 3)
     print("arrar = %r" % array)
     matO = mat(array)
     print("matO = %r" % matO)
